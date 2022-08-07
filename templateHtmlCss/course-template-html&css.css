@@ -1,0 +1,380 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: #212529;
+}
+
+/* .navbar .navbar-brand{
+    font-size: 27px;
+    font-weight: 700;
+    transition: 0.3s;
+} */
+
+
+/* Navbar Section Css */
+.navbar .navbar-brand img {
+    width: 140px;
+}
+
+.navbar .navbar-brand:hover {
+    transition: 0.3s;
+}
+
+.navbar .nav-item {
+    font-weight: 400;
+    font-size: 15.2px;
+    letter-spacing: 1px;
+}
+
+
+
+.navbar .nav-link {
+    transition: 0.3s all;
+}
+
+.navbar .nav-link:hover {
+    color: #fed136 !important;
+    transition: 0.3s all;
+}
+
+.navbar .menu-btn {
+    color: white;
+    padding: 15px;
+    background-color: #fed136;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Navbar Section Media Query */
+@media only screen and (max-width:992px) {
+    .navbar .menu-btn {
+        font-size: 12px;
+        padding: 1em;
+    }
+}
+
+/* end of Navbar Section Media Query */
+
+
+/* end of Navbar Section Css */
+
+
+
+
+/* Header Section Css */
+#header {
+    background-image: url(img/header-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12.7rem 0;
+}
+
+#header .container .row .col h1 {
+    margin: 0;
+    font-weight: 700;
+}
+
+#header .container .row .col span {
+    font-size: 33px;
+    font-weight: 500;
+}
+
+#header .container .row .col .btn {
+    background-color: #fed136;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 38px;
+}
+
+#header .container .row .col .btn:hover {
+    background-color: #fec810;
+}
+
+
+
+/* Header Section Media Query */
+@media only screen and (max-width:768px) {
+    #header {
+        padding: 6rem 0;
+    }
+
+    #header .container .row .col h1 {
+        font-size: 52px;
+        padding-bottom: 30px !important;
+    }
+
+    #header .container .row .col span {
+        font-size: 24px;
+    }
+
+    #header .container .row .col .btn {
+        padding: 18px 28px;
+        font-size: 15px;
+    }
+}
+
+/* End Of Header Section Media Query */
+
+
+/* end of Header Section Css */
+
+
+
+/* Services Section CSS */
+
+#services {
+    padding: 6rem 0;
+    overflow-x: hidden;
+}
+
+/* title row css */
+.container .title-row h1 {
+    font-weight: 700;
+}
+
+
+/* end of title row css */
+
+
+/* content row css */
+#services .content-row .columns .icon {
+    width: 124px;
+    height: 124px;
+    background-color: #fed136;
+    border-radius: 50%;
+}
+
+#services .content-row .columns h4 {
+    font-weight: 700;
+    margin: 0;
+}
+
+#services .content-row .columns p {
+    font-family: 'Roboto Slab', serif;
+    line-height: 28px;
+}
+
+/* end of content row css */
+
+/* end Of Services Section CSS */
+
+
+
+/* Portfolio Section Css */
+#portfolio {
+    padding: 6rem 0;
+    overflow-x: hidden;
+}
+
+#portfolio .content-row .columns .card {
+    border: none;
+    max-width: 25em;
+    margin: 0 auto;
+}
+
+#portfolio .content-row .columns .card .card-link {
+    position: relative;
+}
+
+#portfolio .content-row .columns .card .card-link:hover .card-hover {
+    opacity: 1;
+}
+
+
+#portfolio .content-row .columns .card .card-link .card-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(254, 209, 54, 0.9);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.25s;
+}
+
+
+#portfolio .content-row .columns {
+    padding-top: 30px;
+}
+
+
+#portfolio .content-row .columns .card .card-body {
+    padding: 27px;
+}
+
+
+#portfolio .content-row .columns .card .card-body .card-title {
+    font-weight: 700;
+    margin: 0;
+}
+
+#portfolio .last-three-cols {
+    margin-top: 30px;
+}
+
+
+/* End Of Portfolio Section Css */
+
+
+
+
+/* Markets Section */
+#markets {
+    padding: 3rem 0;
+}
+
+/* end of Markets Section */
+
+
+
+/* Team Section CSS */
+#Team {
+    padding: 6rem 0;
+    overflow-x: hidden;
+}
+
+#Team .content-row .columns img {
+    width: 224px;
+    height: 224px;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+
+#Team .content-row .columns h4 {
+    font-weight: 700;
+    margin: 0;
+}
+
+
+.content-row .columns .list-parent {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content-row .columns .list-parent li {
+    height: 40px;
+    width: 40px;
+    background-color: #343a40;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.content-row .columns .list-parent li:hover {
+    background-color: #23272b;
+    transition: 0.3s;
+}
+
+#Team .content-row-2 .footer-text-col {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+#Team .content-row-2 .footer-text-col p {
+    line-height: 28px;
+}
+
+/* end of Team Section CSS */
+
+
+/* Contact Us Section Css */
+#contact-us {
+    background-image: url(img/map-image.jpg);
+    background-color: #212529;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 6rem 0;
+    overflow-x: hidden;
+}
+
+#contact-us .content-row form {
+    width: 100%;
+}
+
+#contact-us .content-row form .columns input {
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+#contact-us .content-row form .columns .number-input {
+    margin-bottom: 0;
+}
+
+
+#contact-us .content-row form .columns textarea {
+    padding: 20px 0px 173px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+#contact-us .content-row .button-col .btn {
+    padding: 20px 45px;
+    background-color: #fed136;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+
+#contact-us .content-row .button-col .btn:hover {
+    background-color: #fec503;
+}
+
+
+/* Contact Us Section Media Queries */
+@media only screen and (max-width:767px) {
+    #contact-us .content-row form .columns textarea {
+        padding: 20px 0px 130px 20px;
+    }
+
+    #contact-us .content-row form .columns .number-input {
+        margin-bottom: 25px;
+    }
+}
+
+/* end of Contact Us SEction Media Queries */
+
+
+/* end of Contact Us Section Css */
+
+
+
+
+
+/* Footer Section Css*/
+#footer {
+    overflow-x: hidden;
+}
+
+#footer .content-row .columns a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #fed136;
+}
+
+#footer .content-row .columns span {
+    font-size: 15px;
+}
+
+
+/* Footer Section Media Queries */
+
+@media only screen and (max-width:992px) {
+    #footer {
+        padding: 1.3rem 0 !important;
+    }
+
+    #footer .content-row .columns {
+        text-align: center !important;
+    }
+}
+
+/* end of Footer Section Media Queries */
+
+/* end of Footer Section Css */
